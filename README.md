@@ -61,3 +61,4 @@ print(myT("Het bestand '{0}' bestaat niet").format('crucial.err'))
 
 # Notes
 - Make sure the user running `example.py` has the right permissions for writing and updating the `translations`-folder
+- Improve translations by moving the entries in `translations/dl_en/missing.txt` to `translations/dl_en.py` and provide the appropiate english translation
