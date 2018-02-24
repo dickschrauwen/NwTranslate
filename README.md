@@ -6,6 +6,7 @@ A simple  and effective python module for multi language (web) applications
 - (for using with flask) how-to-use-in-flask.py
 
 # Usage
+- Code and translations are in the `example` folder
 
 ```
 # example.py
