@@ -7,9 +7,11 @@ For now, take a look at :
 
 # Usage
 
+###Import class NwTranslate
 ```
-# test_translate.py
 from nwtranslate import NwTranslate
+```
+
 print("""
 The constructor of the NwTranslate class, needs two params:
 - the folder where the translation files live
