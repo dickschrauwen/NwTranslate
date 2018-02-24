@@ -7,10 +7,21 @@ For now, take a look at :
 
 # Usage
 
-###Import class NwTranslate
 ```
+# Import class NwTranslate
+
 from nwtranslate import NwTranslate
+
+# Create an instance 
+# Params: 
+# 1 the folder where the translations live
+# 2 the default language (language used in your code base)
+#   - you may choose anything for the default language
+
+translator = NwTranslate('./translations', 'dl')  
 ```
+
+
 
 print("""
 The constructor of the NwTranslate class, needs two params:
@@ -32,4 +43,4 @@ while True:
     to_translate = input('(Try: to bad, ugly, tree, Python, AI) Translate? > ')
 print(T(to_translate))
 
-```
+
