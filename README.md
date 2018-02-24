@@ -29,7 +29,7 @@ myT = translator.translate
 ```
 
 Let's create some translations from `dl` into `en` (english)
-- Create `dl_en.py` in the `.translations` folder
+- Create `dl_en.py` in the `translations` folder
 - Edit `dl_en.py` as follows
 
 ```
