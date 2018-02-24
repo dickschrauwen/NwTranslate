@@ -21,6 +21,9 @@ from nwtranslate import NwTranslate
 translator = NwTranslate('./translations', 'dl')  
 ```
 
+Let's create some translations from `dl` into `en` (english)
+Create `dl_en.py` in the `.translations` folder
+
 
 
 print("""
