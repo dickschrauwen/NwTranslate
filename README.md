@@ -59,5 +59,5 @@ print(myT("Het bestand '{0}' bestaat niet").format('crucial.err'))
 # ...
 ```
 
-#Note
+# Notes
 - Make sure the user running `example.py` has the right permissions for writing and updating the `translations`-folder
