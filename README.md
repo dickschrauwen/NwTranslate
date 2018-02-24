@@ -47,7 +47,7 @@ td = OrderedDict([
 - Create a folder `dl_en` in `translations`
 - Create a plain empty UTF-8 text file `missing.txt` in `translations/dl_en`
 - When a translation is not available in `td` (the translation-dict) it will be written to `translations/dl_en/missing.txt`
-- and the actual output of myT('unknown/missing') will be 'unknown/missing'
+- and the actual output of `myT('unknown/missing')` will be `'unknown/missing'`
 
 **Now you can translate phrases in `example.py`**
 ```
@@ -56,9 +56,8 @@ td = OrderedDict([
 print(myT('appel'))
 print(myT('monster'))
 print(myT("Het bestand '{0}' bestaat niet").format('crucial.err'))
-
-
-
+# ...
 ```
 
-
+#Note
+- Make sure the user running `example.py` has the right permissions for writing and updating the `translations`-folder
